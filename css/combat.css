@@ -1,0 +1,205 @@
+#background2 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+#cards {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.card1 {
+    width: 35%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-start;
+    /* background-color: blue; */
+}
+
+.card2 {
+    width: 35%;
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+    /* background-color: blue; */
+}
+
+#changePersonnagePlayer1 {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-end;
+    /* background-color: yellow; */
+}
+
+#changePersonnagePlayer2 {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    /* background-color: yellow; */
+}
+
+.itemAmber1,
+.itemBarbara1,
+.itemLayla1,
+.itemYanfei1,
+.itemAmber2,
+.itemBarbara2,
+.itemLayla2,
+.itemYanfei2 {
+    width: 50%;
+    height: 15%;
+    /* background-color: purple; */
+}
+
+.itemAmber1 img,
+.itemBarbara1 img,
+.itemLayla1 img,
+.itemYanfei1 img,
+.itemAmber2 img,
+.itemBarbara2 img,
+.itemLayla2 img,
+.itemYanfei2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.itemAmber1 img:hover,
+.itemBarbara1 img:hover,
+.itemLayla1 img:hover,
+.itemYanfei1 img:hover,
+.itemAmber2 img:hover,
+.itemBarbara2 img:hover,
+.itemLayla2 img:hover,
+.itemYanfei2 img:hover {
+    cursor: pointer;
+    transform:scale(1.10);
+    transition: 0.5s ;
+}
+
+.imgSeparation2 {
+    width: 10%;
+    height: 20%;
+    /* background-color: red; */
+}
+
+.imgSeparation2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#positionCard1,
+#positionCard2 {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    /* background-color: orange; */
+}
+
+.splashArt1,
+.splashArt2 {
+    width: 90%;
+    height: 50%;
+    /* padding-top: 10px; */
+    /* background-color: aqua; */
+}
+
+.splashArt1 img,
+.splashArt2 img  {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#positionCompetences1,
+#positionCompetences2 {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background-color: red; */
+}
+
+.normalAtq1,
+.normalAtq2 {
+    width: 100%;
+    height: 30%;
+    filter: drop-shadow(0px 0px 5px black);
+    /* background-color: green; */
+}
+
+.normalAtq1 img,
+.normalAtq2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#positionCompetencesDuo1,
+#positionCompetencesDuo2 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-around;
+    filter: drop-shadow(0px 0px 5px black);
+    /* background-color: green; */
+}
+
+.skills1 img,
+.ulti1 img,
+.skills2 img,
+.ulti2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.skills1 img:hover,
+.ulti1 img:hover,
+.skills2 img:hover,
+.ulti2 img:hover,
+.normalAtq1 img:hover,
+.normalAtq2 img:hover  {
+    cursor: pointer;
+    transform:scale(1.05);
+    transition: 0.5s ;
+}
+
+#positionPv1,
+#positionPv2 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: coral; */
+}
+
+.pv1,
+.pv2 {
+    width: 90%;
+    height: 50%;
+    background-color: rgb(0, 186, 0);
+    border: 0.5px solid white;
+    border-radius: 7px;
+}

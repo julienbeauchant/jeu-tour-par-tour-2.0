@@ -1,0 +1,101 @@
+#background {
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#players {
+    width: 90%;
+    height: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.player1,
+.player2 {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.amberPlayer1,
+.barbaraPlayer1,
+.laylaPlayer1,
+.yanfeiPlayer1,
+.amberPlayer2,
+.barbaraPlayer2,
+.laylaPlayer2,
+.yanfeiPlayer2 {
+    width: 20%;
+    height: 70%;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
+
+.amberPlayer1:hover,
+.barbaraPlayer1:hover,
+.laylaPlayer1:hover,
+.yanfeiPlayer1:hover,
+.amberPlayer2:hover,
+.barbaraPlayer2:hover,
+.laylaPlayer2:hover,
+.yanfeiPlayer2:hover {
+    transition: 0.5s;
+    background-color: white;
+    cursor: pointer;
+    transform:scale(1.02);
+    transition: 0.5s ;
+}
+
+.amberPlayer1 img,
+.barbaraPlayer1 img,
+.laylaPlayer1 img,
+.yanfeiPlayer1 img,
+.amberPlayer2 img,
+.barbaraPlayer2 img,
+.laylaPlayer2 img,
+.yanfeiPlayer2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imgSeparation {
+    width: 10%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSeparation img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#btnFight {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnFight button {
+    width: 10%;
+    height: 40%;
+    background-color: transparent;
+    border: 0.5px solid white;
+    border-radius: 5px;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+}
