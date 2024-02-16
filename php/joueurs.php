@@ -8,4 +8,8 @@ class Joueurs
         $this->vie = $vie;
     }
 }
+
+$player1 = new Joueurs(10);
+
+$player2 = new Joueurs(10);
 ?>
