@@ -140,6 +140,7 @@ include "amber.php";
 include "barbara.php";
 include "layla.php";
 include "yanfei.php";
+include "joueurs.php";
 ?>
 
 <!-- $nomPersonnage = new Personnage ($vie, $attaque, $capacite)
