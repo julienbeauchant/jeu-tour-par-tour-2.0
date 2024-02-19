@@ -2,8 +2,8 @@
 class Amber extends Personnages {
     public $bombe;
 
-    public function __construct($vie, $attaque, $capacite, $bombe) {
-        parent::__construct($vie, $attaque, $capacite);
+    public function __construct($nom, $attaque, $capacite, $bombe) {
+        parent::__construct($nom, $attaque, $capacite);
         $this->bombe = $bombe;
     }
 

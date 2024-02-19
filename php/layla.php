@@ -2,8 +2,8 @@
 class Layla extends Personnages {
     public $bouclier;
 
-    public function __construct($vie, $attaque, $capacite, $bouclier) {
-        parent::__construct($vie, $attaque, $capacite);
+    public function __construct($nom, $attaque, $capacite, $bouclier) {
+        parent::__construct($nom, $attaque, $capacite);
         $this->bouclier = $bouclier;
     }
 

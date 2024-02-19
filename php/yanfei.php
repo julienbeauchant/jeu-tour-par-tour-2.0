@@ -2,8 +2,8 @@
 class Yanfei extends Personnages {
     public $explosion;
 
-    public function __construct($vie, $attaque, $capacite, $explosion) {
-        parent::__construct($vie, $attaque, $capacite);
+    public function __construct($nom, $attaque, $capacite, $explosion) {
+        parent::__construct($nom, $attaque, $capacite);
         $this->explosion = $explosion;
     }
 

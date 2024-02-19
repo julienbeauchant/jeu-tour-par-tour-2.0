@@ -2,8 +2,8 @@
 class Barbara extends Personnages {
     public $soin;
 
-    public function __construct($vie, $attaque, $capacite, $soin) {
-        parent::__construct($vie, $attaque, $capacite);
+    public function __construct($nom, $attaque, $capacite, $soin) {
+        parent::__construct($nom, $attaque, $capacite);
         $this->soin = $soin;
     }
 
