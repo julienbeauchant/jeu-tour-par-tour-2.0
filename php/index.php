@@ -1,4 +1,24 @@
-<!DOCTYPE html>
+<?php
+session_start();
+
+include "personnages/personnages.php";
+include "selection.php";
+include "battle.php";
+
+var_dump($player1);
+?>
+
+<!-- $nomPersonnage = new Personnage ($vie, $attaque, $capacite)
+$nomPersonnage = new Personnage ($vie, $attaque, $capacite)
+$nomPersonnage = new Personnage ($vie, $attaque, $capacite)
+$nomPersonnage = new Personnage ($vie, $attaque, $capacite) -->
+
+<!-- ici se trouvent tous les personnages avec les propriétés communes hérités du parent, 
+si un personnage a des propriétés différentes on les ajoute dans sa sous class ( extends )
+si un personnage n'a pas une des propriétés communes, alors cette propriété ne doit pas se trouver dans le parents mais dans l'extends de ceux qui l'ont -->
+
+
+<!-- <!DOCTYPE html>
 <html lang="fr">
 
 <head>
@@ -132,22 +152,4 @@
     </section>
 </body>
 
-</html>
-
-<?php
-include "personnages.php";
-include "amber.php";
-include "barbara.php";
-include "layla.php";
-include "yanfei.php";
-include "joueurs.php";
-?>
-
-<!-- $nomPersonnage = new Personnage ($vie, $attaque, $capacite)
-$nomPersonnage = new Personnage ($vie, $attaque, $capacite)
-$nomPersonnage = new Personnage ($vie, $attaque, $capacite)
-$nomPersonnage = new Personnage ($vie, $attaque, $capacite) -->
-
-<!-- ici se trouvent tous les personnages avec les propriétés communes hérités du parent, 
-si un personnage a des propriétés différentes on les ajoute dans sa sous class ( extends )
-si un personnage n'a pas une des propriétés communes, alors cette propriété ne doit pas se trouver dans le parents mais dans l'extends de ceux qui l'ont -->
+</html> -->
