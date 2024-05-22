@@ -32,9 +32,21 @@ if (isset($_POST['select'])){
         echo "player1 = Yanfei";
     }
 
-
-
     $_SESSION['player2']['classe'] = $_POST['selectPlayer2'];
+
+    if($_POST['selectPlayer2'] == "Amber"){
+        echo "player2 = Amber";
+    }
+    if($_POST['selectPlayer2'] == "Barbara"){
+        echo "player2 = Barbara";
+    }
+    if($_POST['selectPlayer2'] == "Layla"){
+        echo "player2 = Layla";
+    }
+    if($_POST['selectPlayer2'] == "Yanfei"){
+        echo "player2 = Yanfei";
+    }
+
     echo $_POST['selectPlayer1'] . ' ' . $_POST['selectPlayer2'];
 }
 ?>

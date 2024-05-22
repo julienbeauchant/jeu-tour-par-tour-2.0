@@ -5,7 +5,7 @@ include "personnages/personnages.php";
 include "selection.php";
 include "battle.php";
 
-var_dump($player1);
+var_dump($selectPlayer1);
 ?>
 
 <!-- $nomPersonnage = new Personnage ($vie, $attaque, $capacite)
